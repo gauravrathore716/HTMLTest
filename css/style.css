@@ -1,0 +1,324 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px
+}
+.container {
+	position: relative;
+	max-width: 970px;
+	margin: 0 auto;
+}
+.svg-header-logo {
+	width: 185px;
+	height: 28px;
+	float: left
+}
+.svg-header-logo {
+	width: 185px;
+	height: 28px;
+	float: left;
+	padding: 11px 0;
+}
+.nav-search .svg-loupe svg {
+	width: 21px;
+	height: 21px;
+	padding: 0 0 2px;
+}
+.nav-search .search-title {
+	padding: 2px 0 0 7px;
+}
+.navigation {
+	float: right;
+	list-style: none
+}
+.navigation li {
+	float: left
+}
+.navigation li svg {
+	width: 20px;
+	float: left;
+	height: 20px
+}
+.navigation li {
+	float: left;
+	margin: 0 11px 0 0;
+	padding-right: 1px;
+}
+.navigation li svg {
+	width: 20px;
+	float: left;
+	height: 20px;
+	margin: 0 6px 0 0;
+}
+.telephone-banner {
+	padding: 10px 0;
+	background: #deeeff;
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+.container h2 {
+	font-family : Arial !important;
+	font-size: 14px;
+	color: #2082eb;
+	font-weight: normal
+}
+.main-title {
+	position: absolute;
+	top: calc(30% - 40px);
+	z-index: inherit;
+	z-index: 99999;
+	left: 0;
+	right: 0;
+	color: #fff;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0,0,0,.5);
+	text-align: center;
+	font-family : Arial !important;
+	max-width: 500px;
+	margin: auto;
+	font-size: 36px
+}
+.v_container {
+	width: 100%;
+	height: 45vh;
+	overflow: hidden;
+	position: relative
+}
+.v_container_next {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative
+}
+.v_container_next video {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	max-width: 100%;
+	min-width: 100%;
+	max-height: inherit
+}
+
+.--inverted {
+    color: #fff;
+    padding: 16px 0 3px;
+    margin: 0;
+}
+.video-container .search {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	z-index: 1;
+	background: rgba(0,0,0,.6);
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+.video-container .search .container {
+	max-width: 970px;
+}
+.Search_vb {
+	display: grid;
+	grid-gap: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.--inverted {
+	color: #fff;
+}
+.Frme1 {
+	grid-column: 1/13;
+	grid-row: 1;
+}
+.Frme2 {
+	grid-column: 1/6;
+	grid-row: 2;
+	position: relative;
+}
+.Frme3 {
+	grid-column: 6/8;
+	grid-row: 2;
+	position: relative;
+}
+.Frme4 {
+	grid-column: 8/10;
+	grid-row: 2;
+	position: relative;
+}
+.Frme5 {
+	grid-column: 10/11;
+	grid-row: 2;
+	position: relative;
+}
+.Frme6 {
+	grid-column: 11/13;
+	grid-row: 2;
+	position: relative;
+}
+.svg-loupe {
+	position: absolute;
+	left: 0px;
+	left: 10px;
+	width: 16px;
+	height: 16px;
+	fill: #23211e;
+	top: 16px;
+}
+.svg-calendar, .svg-person-avatar {
+	position: absolute
+}
+.c-input {
+	background-color: #fff;
+	width: 100%;
+	font-size: 16px;
+	height: 45px;
+}
+.datepicker-button {
+	padding: 5px 10px;
+	cursor: pointer;
+	background: #fff;
+	color: #23211e;
+}
+.datepicker-button {
+	padding: 5px 10px;
+	cursor: pointer;
+	background: #fff;
+	color: #23211e;
+}
+.select-persons-button[data-v-4a7ecb80] {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	min-width: 50px;
+	min-height: 50px;
+	font-weight: 700;
+	cursor: pointer;
+	background: #fff;
+}
+.search {
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	background: rgba(0,0,0,.6);
+	width: 100%;
+	float: left;
+}
+.Frme5 {
+	background: #fff;
+	height: 45px;
+	line-height: 56px;
+	text-align: center;
+	font-weight: bold;
+}
+.svg-calendar, .svg-person-avatar {
+	position: absolute;
+	width: 15px;
+	height: 17px;
+	right: 9px;
+	top: 4px;
+}
+#destination {
+	padding-left: 36px;
+	box-sizing: border-box;
+}
+.svg-person-avatar {
+	width: 11px;
+	height: 14px;
+}
+.svg-calendar svg {
+	color: #2082eb !important;
+}
+.datepicker-button {
+	height: 35px;
+}
+.c-button {
+	background-color: #2082eb;
+	color: #fff;
+}
+.c-button {
+	background-color: #2082eb;
+	color: #fff;
+	float: left;
+	width: 100%;
+	height: 44px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: 0px;
+}
+.search_form__check {
+	width: 100%;
+	text-align: center;
+	text-align: center;
+	color: #fff;
+	font-family : Arial;
+	font-weight: bold;
+	padding: 11px 0;
+	font-size: 13px
+}
+.list_table {
+	overflow-x: hidden;
+	padding: 15px 0 15px 0;
+	border-bottom: 1px #ddd solid
+}
+.list_table {
+	display: grid;
+	width: 100%
+}
+.list_table {
+	font-size: 14px;
+	color: #4f4c45;
+	line-height: 10px;
+}
+.list_table .box1 {
+	font-size: 14px;
+	color: #4f4c45;
+	grid-column: 1/3;
+	grid-row: 1;
+	line-height: 20px;
+	padding: 13px 0 0 0
+}
+.list_table .box2 {
+	grid-column: 3/6;
+	grid-row: 1
+}
+.list_table .box3 {
+	grid-column: 6/9;
+	grid-row: 1
+}
+.list_table .box3 {
+	grid-column: 9/12;
+	grid-row: 1
+}
+.svg-usp-checkmark, .svg-usp_heart, .svg-usp_crown {
+	width: 22px;
+	float: left;
+	height: 50px;
+	position: relative;
+	top: 22px;
+	margin: 0 0 0 0;
+	left: -18px
+}
+.svg-usp_heart {
+	left : -259px
+}
+.datepicker-button span {
+	position: relative;
+	top: -3px;
+}
+.datepicker-button {
+	cursor: pointer;
+	color: #23211e;
+	font-size: 14px;
+}
+.svg-usp_crown {
+	position: relative;
+	left: 219px;
+}
